@@ -1,0 +1,69 @@
+TROCA DA LÂMPADA COM EFICIÊNCIA
+
+1.Verificar se a lâmpada está queimada.
+2.SE a lâmpada estiver queimada, seguir para o passo 3.
+	3.SE NÃO, a lâmpada estiver funcionando, encerrar o processo.
+4.Desligar o interruptor da luz.
+5.Desligar o disjuntor, se necessário.
+6.Aguardar a lâmpada esfriar.
+7.Verificar condições para alcançar a lâmpada.
+8.SE as condições forem seguras, seguir para o passo 10.
+	9.SE NÃO, utilize uma escada adequada, peça ajuda ou verificar a estabilidade.
+10.Retirar a lâmpada queimada com cuidado.
+11.Verificar se a lâmpada nova é compatível com o soquete e a tensão elétrica.
+12.SE a lâmpada nova for compatível, seguir para o passo 14.
+	13.SE NÃO, trocar por uma lâmpada correta, compatível com o tipo de soquete e a tensão elétrica.
+14.Instalar a lâmpada nova corretamente.
+15.Restabelecer eletricidade, ligando o disjuntor, se ele tiver sido desligado.
+16.Ligue o interruptor e verifique se a lâmpada funciona.
+17.SE a lâmpada funcionar, confirmar que a substituição foi concluída.
+	18.SE NÃO, desligue novamente o disjuntor e verifique a instalação, o soquete e a lâmpada. Se necessário, chame um profissional.
+
+
+
+PREPARAÇÃO DO CAFÉ TRADICIONAL BRASILEIRO
+
+1.Separar todos os materiais necessários: água, pó de café, filtro, suporte, chaleira e xícara.
+2.Colocar aproximadamente 200 ml de água na chaleira.
+3.Aquecer a água até próximo da fervura.
+4.Colocar o filtro no suporte.
+5.Adicionar aproximadamente duas colheres de sopa de pó de café ao filtro.
+6.Posicionar o suporte sobre a xícara ou outro recipiente.
+7.Despejar a água quente lentamente sobre o pó de café.
+8.Aguardar a água passar completamente pelo filtro.
+9.Retirar o filtro usado e descartá-lo adequadamente.
+10.Verificar se deseja adicionar açúcar ou adoçante.
+11.SE desejar adicionar açúcar ou adoçante, seguir para o passo 12.
+12.Adicionar açúcar ou adoçante e misturar bem.
+	13.SE NÃO, desejar adicionar açúcar ou adoçante, seguir diretamente para o passo 14.
+14.Servir o café com cuidado.
+15.Verificar se o café está na temperatura adequada para consumo.
+16.SE o café estiver pronto e do jeito desejado, confirmar que o preparo foi concluído.
+	17.SE NÃO, ajustar o preparo, como a quantidade de café ou a temperatura da água, e refazer o processo, se necessário.
+
+
+
+APRENDER PROGRAMAÇÃO EM PYTHON
+
+1.Definir o objetivo de aprender Python, como desenvolver projetos pessoais ou conseguir uma oportunidade profissional.
+2.Instalar o Python ou acessar um ambiente de programação on-line.
+3.Abrir um editor de código, como VS Code, PyCharm ou Google Colab.
+4.Estudar os conceitos básicos de programação:
+- Variáveis e tipos de dados.
+- Entrada e saída de dados (input() e print()).
+- Operadores matemáticos.
+- Estruturas condicionais (if, elif e else).
+- Estruturas de repetição (for e while).
+5.Escrever um pequeno código utilizando o conteúdo estudado.
+6.Executar o código.
+7.Verificar se o código funcionou como esperado.
+8.SE o código funcionar corretamente, seguir para o passo 11.
+	9.SE NÃO, analisar a mensagem de erro apresentada pelo Python. Corrigir o código e executá-lo novamente, retornando ao passo 6.
+10.Praticar com exercícios e pequenos projetos, como uma calculadora ou um jogo simples.
+11.Revisar os conteúdos aprendidos regularmente.
+12.Desenvolver projetos mais complexos conforme adquirir experiência.
+13.Avaliar o próprio progresso e identificar os assuntos que precisam de mais prática.
+14.Verifique se ainda quer continuar estudando.
+15.SE desejar continuar, retornar ao passo 4 para estudar novos conteúdos e praticar.
+	16.SE NÃO, escrever um resumo do que aprendeu e planejar os próximos passos.
+17.Repetir o ciclo de estudo, prática e revisão continuamente, conforme seus objetivos.

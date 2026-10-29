@@ -1,0 +1,480 @@
+<mxfile host="app.diagrams.net" pages="3">
+  <diagram name="ALGORITMO LÂMPADA" id="U50IR3NK8Nxt4Yfmos2E">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-4" edge="1" parent="1" source="uvipvyrLhtMpSpkyhC0j-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvipvyrLhtMpSpkyhC0j-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="INÍCIO" vertex="1">
+          <mxGeometry height="60" width="100" x="360" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;div&gt;Verificar se a lâmpada está queimada.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-7" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-14" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-5" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Lâmpada queimada?" vertex="1">
+          <mxGeometry height="100" width="100" x="360" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="A lâmpada está funcionando." vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NÃO" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SIM" vertex="1">
+          <mxGeometry height="30" width="60" x="420" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-10" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-11" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="FIM" vertex="1">
+          <mxGeometry height="60" width="100" x="550" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-12" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-16" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Desligar o interruptor da luz." vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-18" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Desligar o disjuntor (se necessário)." vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-20" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Aguardar a lâmpada esfriar." vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Verificar condições para alcançar a lâmpada." vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-24" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-28" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-21" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Condições seguras?" vertex="1">
+          <mxGeometry height="100" width="100" x="360" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-22" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-30" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Utilize uma escada, peça ajuda ou verifique estabilidade" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NÃO" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SIM" vertex="1">
+          <mxGeometry height="30" width="60" x="420" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-32" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Retirar a lâmpada queimada com cuidado." vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="1109" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Verificar se a lâmpada nova é compatível com o soquete e a tensão elétrica." vertex="1">
+          <mxGeometry height="90" width="130" x="345" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-37" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="1480.277108433735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-43" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-35" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Lâmpada nova é compatível?" vertex="1">
+          <mxGeometry height="100" width="130" x="345" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-36" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-44" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Trocar por uma lâmpada correta, compatível com o tipo de soquete e a tensão elétrica." vertex="1">
+          <mxGeometry height="90" width="130" x="540" y="1435" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SIM" vertex="1">
+          <mxGeometry height="30" width="60" x="420" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NÃO" vertex="1">
+          <mxGeometry height="30" width="60" x="470" y="1435" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-45" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Instalar a lâmpada nova corretamente." vertex="1">
+          <mxGeometry height="90" width="130" x="345" y="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-48" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Restabelecer eletricidade, ligando o disjuntor, se ele tiver sido desligado." vertex="1">
+          <mxGeometry height="90" width="130" x="350" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-50" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Ligue o interruptor e verifique se a lâmpada funciona." vertex="1">
+          <mxGeometry height="90" width="130" x="350" y="1960" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-53" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="2180.277108433735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-56" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-49" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Funciona?" vertex="1">
+          <mxGeometry height="100" width="130" x="350" y="2130" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NÃO" vertex="1">
+          <mxGeometry height="30" width="60" x="475" y="2140" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SIM" vertex="1">
+          <mxGeometry height="30" width="60" x="430" y="2240" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-60" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="6e5O-HgtMQiYKI6FiUbG-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="desligue novamente o disjuntor e verifique a instalação, o soquete e a lâmpada. Se necessário, chame um profissional." vertex="1">
+          <mxGeometry height="90" width="155" x="535" y="2135" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-58" edge="1" parent="1" source="6e5O-HgtMQiYKI6FiUbG-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415.5542168674699" y="2460.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Lâmpada trocada com sucesso." vertex="1">
+          <mxGeometry height="90" width="130" x="350" y="2300" as="geometry" />
+        </mxCell>
+        <mxCell id="6e5O-HgtMQiYKI6FiUbG-57" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="FIM" vertex="1">
+          <mxGeometry height="60" width="100" x="365" y="2470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tNywbYjeWslVIru2qXUW" name="ALGORITMO CAFÉ">
+    <mxGraphModel dx="823" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gY7gC7Gf8ugYXlcVaNPB-2" edge="1" parent="1" source="gY7gC7Gf8ugYXlcVaNPB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gY7gC7Gf8ugYXlcVaNPB-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="INÍCIO" vertex="1">
+          <mxGeometry height="60" width="100" x="420" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-2" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Separar todos os materiais necessários: água, pó de café, filtro, suporte, chaleira e xícara." vertex="1">
+          <mxGeometry height="100" width="145" x="397.5" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-5" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Colocar aproximadamente 200 ml de água na chaleira." vertex="1">
+          <mxGeometry height="100" width="145" x="397.5" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-8" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="-NGH5z35jj6JPd3PBgXI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Aquecer a água até próximo da fervura." vertex="1">
+          <mxGeometry height="90" width="145" x="397.5" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-10" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="-NGH5z35jj6JPd3PBgXI-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Colocar o filtro no suporte." vertex="1">
+          <mxGeometry height="90" width="145" x="397.5" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-12" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="-NGH5z35jj6JPd3PBgXI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Adicionar aproximadamente duas colheres de sopa de pó de café ao filtro." vertex="1">
+          <mxGeometry height="90" width="145" x="397.5" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-14" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="-NGH5z35jj6JPd3PBgXI-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Posicionar o suporte sobre a xícara ou outro recipiente." vertex="1">
+          <mxGeometry height="90" width="145" x="397.5" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-16" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="-NGH5z35jj6JPd3PBgXI-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Despejar a água quente lentamente sobre o pó de café." vertex="1">
+          <mxGeometry height="90" width="145" x="397.5" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-18" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="-NGH5z35jj6JPd3PBgXI-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Aguardar a água passar completamente pelo filtro." vertex="1">
+          <mxGeometry height="90" width="145" x="397.5" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-20" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Retirar o filtro usado e descartá-lo adequadamente." vertex="1">
+          <mxGeometry height="90" width="145" x="397.5" y="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-24" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="1980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-25" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-21" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Deseja adicionar adoçante?" vertex="1">
+          <mxGeometry height="100" width="130" x="405" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SIM" vertex="1">
+          <mxGeometry height="30" width="60" x="490" y="2670" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NÃO" vertex="1">
+          <mxGeometry height="30" width="60" x="482.5" y="2050" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-29" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="-NGH5z35jj6JPd3PBgXI-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Adicionar açúcar ou adoçante e misturar bem." vertex="1">
+          <mxGeometry height="90" width="145" x="630" y="1940" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-33" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="-NGH5z35jj6JPd3PBgXI-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Servir o café com cuidado." vertex="1">
+          <mxGeometry height="90" width="145" x="397.5" y="2140" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-35" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="-NGH5z35jj6JPd3PBgXI-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Verificar se o café está na temperatura adequada para consumo." vertex="1">
+          <mxGeometry height="90" width="145" x="397.5" y="2320" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-39" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="-NGH5z35jj6JPd3PBgXI-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-40" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="469.7710843373495" y="2760.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-34" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Café está pronto e do jeito desejado?" vertex="1">
+          <mxGeometry height="135" width="182.5" x="378.75" y="2510" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-44" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="-NGH5z35jj6JPd3PBgXI-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Ajuste o preparo, como a quantidade de café ou a temperatura da água, e refaça o processo se necessário." vertex="1">
+          <mxGeometry height="90" width="145" x="650" y="2532.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NÃO" vertex="1">
+          <mxGeometry height="30" width="60" x="550" y="2530" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Café preparado com sucesso." vertex="1">
+          <mxGeometry height="90" width="145" x="397.5" y="2770" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-42" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="FIM" vertex="1">
+          <mxGeometry height="60" width="100" x="420" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="-NGH5z35jj6JPd3PBgXI-43" edge="1" parent="1" source="-NGH5z35jj6JPd3PBgXI-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="-NGH5z35jj6JPd3PBgXI-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="frsf0Mhri5e-qtxFIbaG" name="ALGORITMO PYTHON">
+    <mxGraphModel dx="1650" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tdW8RyN4PbjjEefYKmjy-2" edge="1" parent="1" source="rDa8fLJRDg49KGHSE4GM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="tdW8RyN4PbjjEefYKmjy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDa8fLJRDg49KGHSE4GM-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="INÍCIO" vertex="1">
+          <mxGeometry height="60" width="100" x="-10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tdW8RyN4PbjjEefYKmjy-3" edge="1" parent="1" source="tdW8RyN4PbjjEefYKmjy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tdW8RyN4PbjjEefYKmjy-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Definir o objetivo de aprender Python, como desenvolver projetos pessoais ou conseguir uma oportunidade profissional." vertex="1">
+          <mxGeometry height="120" width="172.5" x="-46.25" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-3" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="AS4Y3b9LhmOdZNf0tspq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Instalar o Python ou acessar um ambiente de programação on-line." vertex="1">
+          <mxGeometry height="90" width="145" x="-32.5" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-5" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="AS4Y3b9LhmOdZNf0tspq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Abrir um editor de código, como VS Code, PyCharm ou Google Colab." vertex="1">
+          <mxGeometry height="90" width="145" x="-32.5" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-6" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Estudar os conceitos básicos de programação:&lt;div&gt;- Variáveis e tipos de dados.&lt;/div&gt;&lt;div&gt;- Entrada e saída de dados (input() e print()).&lt;/div&gt;&lt;div&gt;- Operadores matemáticos.&lt;/div&gt;&lt;div&gt;- Estruturas condicionais (if, elif e else).&lt;/div&gt;&lt;div&gt;- Estruturas de repetição (for e while).&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="232.5" x="-76.25" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-9" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="AS4Y3b9LhmOdZNf0tspq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Escrever um pequeno código utilizando o conteúdo estudado." vertex="1">
+          <mxGeometry height="90" width="145" x="-32.5" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-10" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Executar o código." vertex="1">
+          <mxGeometry height="90" width="145" x="-32.5" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-14" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-15" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="1235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-11" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Código funcionou como esperado?" vertex="1">
+          <mxGeometry height="110" width="157.5" x="-38.75" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NÃO" vertex="1">
+          <mxGeometry height="30" width="60" x="130" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SIM" vertex="1">
+          <mxGeometry height="30" width="60" x="58.75" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-17" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="AS4Y3b9LhmOdZNf0tspq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Analisar a mensagem de erro apresentada pelo Python. Corrigir o código e executá-lo novamente." vertex="1">
+          <mxGeometry height="90" width="145" x="250" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-19" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Praticar com exercícios e pequenos projetos, como uma calculadora ou um jogo simples." vertex="1">
+          <mxGeometry height="90" width="145" x="-32.5" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-22" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="AS4Y3b9LhmOdZNf0tspq-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Praticar com exercícios e pequenos projetos, como uma calculadora ou um jogo simples." vertex="1">
+          <mxGeometry height="90" width="145" x="-32.5" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-23" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40.361445783132694" y="2000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Revisar os conteúdos aprendidos regularmente." vertex="1">
+          <mxGeometry height="90" width="145" x="-32.5" y="1820" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-26" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="AS4Y3b9LhmOdZNf0tspq-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Desenvolver projetos mais complexos conforme adquirir experiência." vertex="1">
+          <mxGeometry height="90" width="145" x="-32.5" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-27" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40.361445783132694" y="2350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Avaliar o próprio progresso e identificar os assuntos que precisam de mais prática." vertex="1">
+          <mxGeometry height="90" width="145" x="-32.5" y="2170" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-32" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40.361445783132694" y="2570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-34" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="2405.5783132530123" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-29" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Deseja continuar estudando?" vertex="1">
+          <mxGeometry height="110" width="157.5" x="-38.75" y="2350" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NÃO" vertex="1">
+          <mxGeometry height="30" width="60" x="130" y="2350" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SIM" vertex="1">
+          <mxGeometry height="30" width="60" x="58.75" y="2490" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-40" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="AS4Y3b9LhmOdZNf0tspq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Repita o ciclo de estudo, prática e revisão continuamente." vertex="1">
+          <mxGeometry height="110" width="178.75" x="-48.75" y="2560" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Escrever um resumo do que aprendeu e planejar os próximos passos." vertex="1">
+          <mxGeometry height="90" width="145" x="269" y="2360" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-37" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="FIM" vertex="1">
+          <mxGeometry height="80" width="127.5" x="-23.75" y="2780" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-38" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="AS4Y3b9LhmOdZNf0tspq-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS4Y3b9LhmOdZNf0tspq-39" edge="1" parent="1" source="AS4Y3b9LhmOdZNf0tspq-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="AS4Y3b9LhmOdZNf0tspq-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
