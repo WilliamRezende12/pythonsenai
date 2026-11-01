@@ -6,6 +6,5 @@ try:
     resultado_final = preco - valor_desconto
 
     print("O preço final do produto após o desconto é de: ", resultado_final)
-
 except ValueError:
     print("Erro! Entrada de dados inválida.")

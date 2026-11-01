@@ -6,7 +6,7 @@ try:
         print("Você é uma criança")
     elif idade > 12 and idade < 18:
         print("Você é um adolescente.")
-    else:
+    elif idade >= 18:
         print("Você é um adulto.")
 except:
     print("Idade inválida. Digite apenas um número.")
