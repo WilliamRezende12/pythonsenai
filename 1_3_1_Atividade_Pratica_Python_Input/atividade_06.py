@@ -1,0 +1,6 @@
+num11 = int(input("Digite o primeiro número: ").replace(",","."))
+num12 = int(input("Digite o segundo número: ").replace(",","."))
+resultado1 = num11 ** (1/2)
+resultado2 = num12 ** (1/2)
+print("O valor da raiz quadrada de",num11, "= ",resultado1)
+print("O valor da raiz quadrada de",num12, "= ",resultado2)
