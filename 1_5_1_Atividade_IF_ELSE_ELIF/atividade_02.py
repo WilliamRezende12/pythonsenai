@@ -6,7 +6,7 @@ try:
         print("Reprovado!")
     elif nota >= 5 and nota <= 6.9:
         print("Recuperação.")
-    elif nota >= 7 and nota <= 10:
+    else:
         print("Aprovado!")
 except:
     print("Nota inválida. Digite apenas um número.")
