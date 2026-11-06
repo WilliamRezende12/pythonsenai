@@ -6,4 +6,4 @@ distancia = float(input("Digite a distância entre os corpos (m): ").replace(","
 
 resultado = forca_g * (massa1 * massa2) / (distancia ** 2)
 
-print("A força gravitacional entre os dois corpos é:", resultado, "N")
+print("A força gravitacional entre os dois corpos é:", resultado)

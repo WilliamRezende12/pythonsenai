@@ -3,4 +3,4 @@ tensao = float(input("Digite a tensão da rede elétrica em volts (V): ").replac
 
 corrente = potencia / tensao
 resultado = corrente * 1.10
-print("A corrente calculada com 10 (%) de margem é:", resultado, "A")
+print("A corrente calculada com 10 (%) de margem é:", resultado)
