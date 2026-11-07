@@ -1,8 +1,6 @@
 try:
     dia_semana = int(input("Digite um número de 1 a 7: "))
-except:
-    print("Número inválido.")
-match dia_semana:
+    match dia_semana:
         case 1:
             print("Domingo!")
         case 2:
@@ -18,4 +16,6 @@ match dia_semana:
         case 7:
             print("Sábado!")
         case _:
-            print("Número inválido! Para dias da semana, digite apenas números de 1 a 7.")
+            print("Número inválido.")
+except:
+    print("Número inválido! Para dias da semana, digite apenas números de 1 a 7.")

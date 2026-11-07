@@ -9,9 +9,7 @@ try:
     print("Para sair, digite 4.")
 
     numero = int(input("Digite: "))
-except ValueError:
-    print("Número inválido.")
-match numero:
+    match numero:
         case 1:
             print("Seu saldo bancário inicial é de ", saldo_bancario_inicial)
         case 2:
@@ -21,4 +19,6 @@ match numero:
         case 4:
             print("Sair")
         case _:
-            print("Número inválido! Por favor, digite um número inteiro de 1 a 4.")
+            print("Número inválido.")
+except:
+    print("Número inválido! Por favor, digite um número inteiro de 1 a 4.")
