@@ -12,8 +12,7 @@ def receber_nascimento(mensagem):
 dia = receber_nascimento("Digite o dia em que nasceu: ")
 mes = receber_nascimento("Digite o mês em que nasceu: ")
 ano = receber_nascimento("Digite o ano em que nasceu: ")
-agora = datetime.now()
 
-print("Data de nascimento:",dia, mes, ano )
-print("Data atual", agora)
-print("Resultado:")
+hoje = datetime.datetime.now()
+nascimento = datetime.date(ano, mes, dia)
+idade = hoje.year - nascimento.year

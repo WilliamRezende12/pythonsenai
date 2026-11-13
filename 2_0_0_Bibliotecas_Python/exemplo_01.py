@@ -1,7 +1,7 @@
 from datetime import datetime
 
 # Obtém hora e data atual
-agora = datetime.now()
+agora = datetime.datetime.now()
 
 # Exibe os resultados
 print("Data e hora atual:", agora)
