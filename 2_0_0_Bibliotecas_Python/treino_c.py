@@ -1,18 +1,29 @@
-import datetime
+from datetime import datetime
 
-def receber_nascimento(mensagem):
-    while True:
+def receber_data():
+    start = True
+    while start:
         try:
-            data = int(input(mensagem))
-            break
+            data = str(input("Digite sua data de nascimento: "))
+            data_nasc = datetime.strptime(data, "%d/%m/%Y")
+            if data_nasc.date() > datetime.now().date():
+                print("Erro: A data de nascimento não pode ser futura!\n")
+            else:
+                start = False
         except:
-            print("Valor inválido. Por favor digite apenas números inteiros.")
-    return data
+            print("Data inválida! Por favor, digite uma data no formato DD/MM/AAAA\n")
+    return data_nasc
 
-dia = receber_nascimento("Digite o dia em que nasceu: ")
-mes = receber_nascimento("Digite o mês em que nasceu: ")
-ano = receber_nascimento("Digite o ano em que nasceu: ")
+def verifica_aniversario(data_nascimento):
+    data_atual = datetime.now()
 
-hoje = datetime.datetime.now()
-nascimento = datetime.date(ano, mes, dia)
-idade = hoje.year - nascimento.year
+    if (data_atual.month, data_atual.day) >= (data_nascimento.month, data_nascimento.day):
+        mensagem = "Você já fez aniversário neste ano!"
+    else:
+        mensagem = "Você ainda não fez aniversário neste ano!"
+    return mensagem
+    
+data_niver = receber_data()
+verifica_niver = verifica_aniversario(data_niver)
+print("Sua data de aniversário é:", data_niver.strftime("%d/%m/%Y"))
+print(verifica_aniversario(data_niver))
