@@ -1,6 +1,7 @@
 import mod_msg
 import mod_inputs
-import mod_calculadora
+import calculadora
+import calcula_frete
 
 def recebe_opcao():
     while True:
@@ -9,16 +10,21 @@ def recebe_opcao():
             match opcao:
                 case 0:
                     print("Programa encerrado.")
+                    break
                 case 1:
-                    print("Calculadora. Aqui chamo a calculadora!")
-                    mod_calculadora.main()
+                    #print("Calculadora. Aqui chamo a calculadora!")
+                    calculadora.main()
+                    break
                 case 2:
-                    print("Calcular frete. Aqui chamo o calcular frete!")
+                    #print("Calcular frete. Aqui chamo o calcular frete!")
+                    calcula_frete.main()
                 case _:
                     print("Opção inválida!\n")
         except:
             print("Erro ao receber opção!")
 
 def main():
-    mod_msg.msg_menu_principal()
-    recebe_opcao()
+    while True:
+        mod_msg.msg_menu_principal()
+        recebe_opcao()
+        break

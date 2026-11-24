@@ -30,4 +30,4 @@ def main():
     mod_msg.msg_login_ini()
     usuario_validado = valida_usuario(USUARIO)
     senha_validada = valida_senha(SENHA)
-    mod_msg.msg_menu_principal()
+    menu_principal.main()
