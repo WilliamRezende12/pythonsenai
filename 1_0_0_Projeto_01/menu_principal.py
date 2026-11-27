@@ -12,11 +12,9 @@ def recebe_opcao():
                     print("Programa encerrado.")
                     break
                 case 1:
-                    #print("Calculadora. Aqui chamo a calculadora!")
                     calculadora.main()
                     break
                 case 2:
-                    #print("Calcular frete. Aqui chamo o calcular frete!")
                     calcula_frete.main()
                 case _:
                     print("Opção inválida!\n")
